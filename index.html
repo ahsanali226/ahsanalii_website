@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">ahsanali</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="login.html">login</a></li>
+        <li><a href="signup.html"></a>signup</li>
+      </ul>
+      <button id="modeToggle" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h1>Hello, I'm <span class="highlight">DevName</span></h1>
+      <p>A passionate Web Developer</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I specialize in creating modern, responsive websites using HTML, CSS, JavaScript, and frameworks like React.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-list">
+        <article class="project">
+          <img src="Screenshot 2025-06-22 011425.png" alt="Screenshot of Project 1">
+          <h3>Project Title</h3>
+          <p>Brief description of what the project does or solves.</p>
+          <a href="#projcet1" class="btn">Live Demo</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DevName. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
